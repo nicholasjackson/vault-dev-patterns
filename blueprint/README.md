@@ -5,7 +5,7 @@ slug: "vault_k8s"
 browser_windows: "http://k8s-dashboard.ingress.shipyard.run:18443,http://docs.docs.shipyard.run:18080"
 env:
   - KUBECONFIG=$HOME/.shipyard/config/k3s/kubeconfig.yaml
-  - VAULT_ADDR=http://localhost:18200
+  - VAULT_ADDR=http://vault.ingress.shipyard.run:8200
   - VAULT_TOKEN=root
 ---
 
