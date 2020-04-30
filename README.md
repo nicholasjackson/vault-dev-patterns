@@ -11,8 +11,8 @@ This repository contains example patterns to help secure Kubernetes applications
 
 ## Contents
 
-./application  - Go based sample application
-./blueprint - Shipyard blueprint for creating K8s and Vault cluster locally
+* [application](/application)  - Go based sample application
+* [blueprint](/blueprint) - Shipyard blueprint for creating K8s and Vault cluster locally
 
 ## Requirements for running examples
 
