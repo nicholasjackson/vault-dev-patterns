@@ -49,7 +49,7 @@ spec:
           {
             "bind_address": ":9090",
           {{ with secret "database/creds/db-app" -}}
-            "db_connection": "host=postgres port=5432 user={{ .Data.username }} password={{ .Data.password }} dbname=wizard sslmode=disable"
+            "db_connection": "host=postgres port=5432 user={{ .Data.username }} password={{ .Data.password }} dbname=products sslmode=disable"
           {{- end }}
           }
     spec:

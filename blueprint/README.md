@@ -14,16 +14,9 @@ This blueprint creates a Kubernetes cluster with Vault Helm chart installed
 ## Vault UI
 To access the Vault UI point your browser at:
 
-`http://vault-http.ingress.shipyard.run:18200`
+`http://vault-http.ingress.shipyard.run:8200`
 
 The token `root` can be used to authenticate
-
-## Kubernetes Dashboard
-The Kubernetes dashboard is automatically installed and can be accessed at:
-
-`http://k8s-dashboard.shipyard.run:18443`
-
-When prompted press skip to ignore the authentication request
 
 ## Interactive Documentation
 To view the interactive documentation and walk through of using Vault Dynmamic secrets with PostgresSQL
@@ -39,4 +32,4 @@ Run `yard delete` to cleanup all resources
 ## Components
 * Kubernetes
 * HashiCorp Vault (installed with Helm)
-* Example walkthrough for dynamic secrets
+* Examples for static secrets, database secrets, X509 certificates, encryption as a service

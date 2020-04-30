@@ -37,8 +37,6 @@ data:
     }
 
 ---
-# Service account to allow pod access to Vault via K8s auth
-
 apiVersion: v1
 kind: ServiceAccount
 metadata:

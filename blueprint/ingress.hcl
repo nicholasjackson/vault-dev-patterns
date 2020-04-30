@@ -9,7 +9,7 @@ k8s_ingress "vault-http" {
   port {
     local  = 8200
     remote = 8200
-    host   = 18200
+    host   = 8200
   }
 }
 
@@ -39,6 +39,6 @@ k8s_ingress "postgres" {
   port {
     local  = 5432
     remote = 5432
-    host   = 15432
+    host   = 5432
   }
 }
