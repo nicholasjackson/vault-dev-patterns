@@ -1,4 +1,4 @@
-k8s_ingress "vault-http" {
+k8s_ingress "vault" {
   cluster = "k8s_cluster.k3s"
   service  = "vault"
   
